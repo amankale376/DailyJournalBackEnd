@@ -1,7 +1,5 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const md5 = require('md5');
 const cors = require('cors');
 const app = express();
 const { v4: uuidv4 } = require('uuid');
