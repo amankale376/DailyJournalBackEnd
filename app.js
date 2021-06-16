@@ -16,6 +16,10 @@ const userSchema = new mongoose.Schema({
 });
 
 const User  = mongoose.model("admin",userSchema);
+app.get("/",(req,res)=>{
+    res.send("it is working");
+    });
+
 
 app.post("/login", (req,res)=>{
 
